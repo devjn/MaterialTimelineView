@@ -3,10 +3,10 @@ package pl.hypeapp.materialtimelineview
 import android.content.Context
 import android.content.res.TypedArray
 import android.graphics.*
-import android.support.constraint.ConstraintLayout
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.View
+import androidx.constraintlayout.widget.ConstraintLayout
 
 class MaterialTimelineView(context: Context, attrs: AttributeSet?, defStyleAttr: Int)
     : ConstraintLayout(context, attrs, defStyleAttr) {
